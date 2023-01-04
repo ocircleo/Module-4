@@ -1,0 +1,15 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+  
+    background-color: aquamarine;
+}
+form{
+    font-size: 20px;
+
+}
+label{
+    display: block;
+}body{
+      font-family: sans-serif;
+}

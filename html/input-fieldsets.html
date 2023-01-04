@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input fieldsets</title>
+    <link rel="stylesheet" href="../css/input-fieldsets.css">
+</head>
+<body>
+    <h1>Class about input field sets</h1>
+    <form>
+        <label for="name">
+            Enter your name
+            <input type="text" id="name" placeholder="Input your name">
+        </label>
+        <label for="email">
+            Enter your email
+            <input type="email" id="email" placeholder="Input your email">
+        </label>
+        <label for="phone">
+            Enter your phone number
+            <input type="number" name="number" id="phone">
+        </label>
+        <fieldset>
+            <legend>
+                please select an pitha
+            </legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pitha" id="coconut">
+                coconut
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>please select an bhorta</legend>
+            <label for="morich">
+                <input type="checkbox" name="bhorta" id="morich">
+                Morich
+            </label>
+            <label for="shoutki">
+                <input type="checkbox" name="bhorta" id="shoutki">
+                Shoutki
+            </label>
+            <label for="dall">
+                <input type="checkbox" name="bhorta" id="dall">
+                Dall
+            </label>
+            <label for="sorisa">
+                <input type="checkbox" name="bhorta" id="sorisa">
+                Sorisa
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special instraction</legend>
+            <label for="special">
+              <textarea name="discription" id="special" cols="30" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

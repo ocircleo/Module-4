@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+
+}h1{
+    text-transform: capitalize;
+    text-align: center;
+  
+    background-color: aquamarine;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    text-transform: capitalize;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+table th{
+    text-transform: capitalize;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 19px;
+}
