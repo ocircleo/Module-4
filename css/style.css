@@ -1,8 +1,14 @@
 h1{
     text-align: center;
     text-transform: capitalize;
-    font-family: sans-serif;
+  
 }
 body{
     background-color: aquamarine;
+    font-family: sans-serif;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+
 }
